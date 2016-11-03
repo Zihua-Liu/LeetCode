@@ -7,3 +7,7 @@ Work list
 &nbsp;&nbsp;&nbsp;&nbsp;worst time complexity is O(n^2)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;space complexity is O(number_of(character))<br />
 &nbsp;&nbsp;&nbsp;&nbsp;maybe could optimized by using KMP<br /><br />
+4.Median of Two Sorted Arrays--------?<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Cannot solve yet!<br /><br />
+5.Longest Palindromic Substring--------C++<br />
+&nbsp;&nbsp;&nbsp;&nbsp;利用动态规划算法降低复杂度<br /><br />
