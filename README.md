@@ -11,3 +11,5 @@ Work list
 &nbsp;&nbsp;&nbsp;&nbsp;Cannot solve yet!<br /><br />
 5.Longest Palindromic Substring--------C++<br />
 &nbsp;&nbsp;&nbsp;&nbsp;利用动态规划算法降低复杂度<br /><br />
+6.ZigZag Conversion--------C++<br />
+&nbsp;&nbsp;&nbsp;&nbsp;注意当rowNums=1，这种特殊情况，需要在while循环最后加入判断<br /><br />
