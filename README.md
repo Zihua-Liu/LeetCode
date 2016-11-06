@@ -1,4 +1,4 @@
-Work list
+Work list(争取每天做一道。。有想一起督促刷题的小伙伴加微信dlamlzh)
 ===================
 
 1.Two Sum --------C<br /><br />
@@ -15,3 +15,5 @@ Work list
 &nbsp;&nbsp;&nbsp;&nbsp;注意当rowNums=1，这种特殊情况，需要在while循环最后加入判断<br /><br />
 7.Reverse_Integer--------C++<br />
 &nbsp;&nbsp;&nbsp;&nbsp;reverse之后的数可能超过整形表示范围，注意特殊处理，应该返回0。<br /><br />
+8.String to Integer--------C++<br />
+&nbsp;&nbsp;&nbsp;&nbsp;没啥技术含量，关键在于各种case的边界条件的处理。<br /><br />
