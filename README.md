@@ -13,3 +13,5 @@ Work list
 &nbsp;&nbsp;&nbsp;&nbsp;利用动态规划算法降低复杂度<br /><br />
 6.ZigZag Conversion--------C++<br />
 &nbsp;&nbsp;&nbsp;&nbsp;注意当rowNums=1，这种特殊情况，需要在while循环最后加入判断<br /><br />
+7.Reverse_Integer--------C++<br />
+&nbsp;&nbsp;&nbsp;&nbsp;reverse之后的数可能超过整形表示范围，注意特殊处理，应该返回0。<br /><br />
