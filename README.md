@@ -1,4 +1,4 @@
-Work list(争取每天做一道。。有想一起督促刷题的小伙伴加微信dlamlzh)
+Work list(争取每天做一道。。)
 ===================
 
 1.Two Sum --------C<br /><br />
@@ -20,3 +20,6 @@ Work list(争取每天做一道。。有想一起督促刷题的小伙伴加微�
 9.Palindrome Number--------C++<br />
 &nbsp;&nbsp;&nbsp;&nbsp;一开始想用递归做，然而发现无法处理子串开头是0的情况<br />
 &nbsp;&nbsp;&nbsp;&nbsp;后来老老实实用了一个循环，然而用了两个局部变量，也不知道算不算使用了额外的空间。。。<br /><br />
+10.Regular Express Matching--------python<br />
+&nbsp;&nbsp;&nbsp;&nbsp;用递归还比较容易，不断根据各种匹配模式比较字串即可<br />
+&nbsp;&nbsp;&nbsp;&nbsp;在递归函数第一步先比较最后一个字符是为了剪枝，要不然会超时<br /><br />
