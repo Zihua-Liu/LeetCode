@@ -23,3 +23,6 @@ Work list(争取每天做一道。。)
 10.Regular Express Matching--------python<br />
 &nbsp;&nbsp;&nbsp;&nbsp;用递归还比较容易，不断根据各种匹配模式比较字串即可<br />
 &nbsp;&nbsp;&nbsp;&nbsp;在递归函数第一步先比较最后一个字符是为了剪枝，要不然会超时<br /><br />
+11.Container with most water--------python<br />
+&nbsp;&nbsp;&nbsp;&nbsp;用暴力解法，时间复杂度是O(n^2)的<br />
+&nbsp;&nbsp;&nbsp;&nbsp;注意一条性质，当取得最大容器时，容器左侧不可能再有比容器左边沿更高的边，右边同样不可能存在比右边沿更高的边。所以初始时取最两边的边最为边沿，不断向中间靠拢，并更新容积的最大值即可。<br /><br />
