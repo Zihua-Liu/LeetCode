@@ -28,3 +28,7 @@ Work list(争取每天做一道。。)
 &nbsp;&nbsp;&nbsp;&nbsp;注意一条性质，当取得最大容器时，容器左侧不可能再有比容器左边沿更高的边，右边同样不可能存在比右边沿更高的边。所以初始时取最两边的边最为边沿，不断向中间靠拢，并更新容积的最大值即可。<br /><br />
 12.Integer to Roman--------python<br />
 &nbsp;&nbsp;&nbsp;&nbsp;纯暴力。。<br /><br />
+13.Roman to Integer--------C++<br />
+&nbsp;&nbsp;&nbsp;&nbsp;没啥技术含量，直到罗马数字怎么转成十进制数就行了。<br /><br />
+14.Longest Common Prefix--------python<br />
+&nbsp;&nbsp;&nbsp;&nbsp复杂度比较高，依次比较每个字符串对应的位置。如果相同就把公共串的h长度加1。不知道有木有优化算法。<br /><br />
