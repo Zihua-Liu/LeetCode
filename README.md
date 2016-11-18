@@ -32,3 +32,6 @@ Work list(争取每天做一道。。)
 &nbsp;&nbsp;&nbsp;&nbsp;没啥技术含量，直到罗马数字怎么转成十进制数就行了。<br /><br />
 14.Longest Common Prefix--------python<br />
 &nbsp;&nbsp;&nbsp;&nbsp复杂度比较高，依次比较每个字符串对应的位置。如果相同就把公共串的h长度加1。不知道有木有优化算法。<br /><br />
+15.3Sum--------python<br />
+&nbsp;&nbsp;&nbsp;&nbsp大致方法是对数组排序，然后固定两个数，用二分法找第三个数。由于数组有序，注意各种剪枝<br />
+&nbsp;&nbsp;&nbsp;&nbsp比较重要的一个剪枝是如果期望的结果已经在结果集中了，直接剪枝，不要二分法再去找第三个数了。之前一直超时就是没有注意这里。。<br />
