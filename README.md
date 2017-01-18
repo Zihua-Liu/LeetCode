@@ -40,5 +40,7 @@ Work list(争取每天做一道。。)
 &nbsp;&nbsp;&nbsp;&nbsp;复杂度是O(n^2)的<br /><br />
 16.Letter Combinations of a Phone Number--------python<br />
 &nbsp;&nbsp;&nbsp;&nbsp;先算出总的答案数量，然后根据答案编号做除法以及余数运算去寻找对应的字符串<br /><br />
-16.4 Sum--------python<br />
+17.4 Sum--------python<br />
 &nbsp;&nbsp;&nbsp;&nbsp;采用和3 Sum Closest相似的方法，复杂度是O(n^3)<br /><br />
+18.Remove Nth Node From End of List--------C++<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;用一个栈来实现，注意删除结点位于链表头这种特殊情况<br /><br />
