@@ -44,9 +44,13 @@ Work list(争取每天做一道。。)
 &nbsp;&nbsp;&nbsp;&nbsp;采用和3 Sum Closest相似的方法，复杂度是O(n^3)<br /><br />
 19.Remove Nth Node From End of List--------C++<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;用一个栈来实现，注意删除结点位于链表头这种特殊情况<br /><br />
-20.Remove Nth Node From End of List--------C++<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;用一个栈来实现，注意删除结点位于链表头这种特殊情况<br /><br />
-21.Valid Parentheses--------C++<br/>
+20Valid Parentheses--------C++<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;用一个栈来实现<br/><br/>
-22. Merge Two Sorted Lists--------C++<br/>
+21.Merge Two Sorted Lists--------C++<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;每个链表搞一个指针，一起遍历即可<br/><br/>
+22.Generate Parentheses--------python<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;递归实现<br/><br/>
+24.Swap Nodes in Pairs--------python<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;注意边界<br/><br/>
+26.Remove Duplicates from Sorted Array--------python<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;注意审题，只需改变nums数组前半部分的内容即可<br/><br/>
