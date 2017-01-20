@@ -54,3 +54,9 @@ Work list(争取每天做一道。。)
 &nbsp;&nbsp;&nbsp;&nbsp;注意边界<br/><br/>
 26.Remove Duplicates from Sorted Array--------python<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;注意审题，只需改变nums数组前半部分的内容即可<br/><br/>
+27.Remove Element--------python<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;首先把要删除的元素用特殊值标记，然后再将数组多余长度中不应删除的元素填入特殊标记的位置即可。<br/><br/>
+28.Implement strStr()--------C++<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;重点！！！！！应用KMP算法来加快匹配速度！！！KMP算法要掌握！！！可以看一看实现代码。<br/><br/>
+29.Divide Two Integers-------python<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;用除数的移位运算去接近被除数，从被除数中减去除数，同时商上不断累积2的若干次幂<br/><br/>
