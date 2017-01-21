@@ -60,3 +60,9 @@ Work list(争取每天做一道。。)
 &nbsp;&nbsp;&nbsp;&nbsp;重点！！！！！应用KMP算法来加快匹配速度！！！KMP算法要掌握！！！可以看一看实现代码。<br/><br/>
 29.Divide Two Integers-------python<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;用除数的移位运算去接近被除数，从被除数中减去除数，同时商上不断累积2的若干次幂<br/><br/>
+31.Next Permutation--------C++<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;先找到序列中被交换后使得序列增加最小的升序对，然后再将升序对后面的子数组通过排序算法转换为升序排列即可。<br/><br/>
+34.Search for a Range--------C++<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;在二分法上做做文章即可<br/><br/>
+35.Search Insert Position-------C++<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;二分法查找即可<br/><br/>
