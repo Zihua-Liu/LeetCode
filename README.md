@@ -66,9 +66,15 @@ Work list(争取每天做一道。。)
 &nbsp;&nbsp;&nbsp;&nbsp;在二分法上做做文章即可<br/><br/>
 35.Search Insert Position-------C++<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;二分法查找即可<br/><br/>
-36.Valid Sudoku--------C
+36.Valid Sudoku--------C<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;逐行逐列每个子棋盘判断即可<br/><br/>
-37.Sudoku Solver--------C
+37.Sudoku Solver--------C<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;递归+回溯<br/><br/>
-38.Count and Say--------python
+38.Count and Say--------python<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;简单的递归<br/><br/>
+39.Combination Sum--------python<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;递归<br/><br/>
+40.Combination Sum2--------python<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;对39的代码稍作修改即可<br/><br/>
+41.First Missing Positive--------python<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;思路：交换数组元素，使得数组中第i位存放数值(i+1)。最后遍历数组，寻找第一个不符合此要求的元素，返回其下标。整个过程需要遍历两次数组，复杂度为O(n)。<br/><br/>
