@@ -78,3 +78,12 @@ Work list(争取每天做一道。。)
 &nbsp;&nbsp;&nbsp;&nbsp;对39的代码稍作修改即可<br/><br/>
 41.First Missing Positive--------python<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;思路：交换数组元素，使得数组中第i位存放数值(i+1)。最后遍历数组，寻找第一个不符合此要求的元素，返回其下标。整个过程需要遍历两次数组，复杂度为O(n)。<br/><br/>
+42.Trapping Rain Water--------python<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;循环往前算，在每个位置看能存储多少水即可。<br/><br/>
+43.Multiply Strings--------C++<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;大整数乘法，注意在乘法进位以及加法进位的时候要先除以十进位，再在本位取余数<br/><br/>
+44.Jump Game II--------C++<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;ret:目前为止的jump数<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;curRch:从A[0]进行ret次jump之后达到的最大范围<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;curMax:从0~i这i+1个A元素中能达到的最大范围<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;当curRch < i，说明ret次jump已经不足以覆盖当前第i个元素，因此需要增加一次jump，使之达到记录的curMax。<br/><br/>
