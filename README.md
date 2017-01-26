@@ -93,3 +93,9 @@ Work list(争取每天做一道。。)
 &nbsp;&nbsp;&nbsp;&nbsp;在46的基础上对递归进行一定的优化，首先先把数组排序，对于重复的元素如果在同一层中已经使用过了就不要再选择这个元素进入下一层递归了<br/><br/>
 48.Image Rotation<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;从外到里一圈一圈的旋转90度<br/><br/>
+49.Group Anagrams<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;用两层循环做会超时，用一层循环，将每个字符串按字典序重新排序后，将排序后相同的字符串加入字典中同一key值的列表（相当于哈希的方式实现，不会超时。)<br/><br/>
+50.Pow(x, n)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;将n用2进制表示，然后将底数的2^n次方提前算好，然后再求x的n次方，降低复杂度。<br/><br/>
+51.N-Queens<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;递归加回溯，基础题<br/><br/>
