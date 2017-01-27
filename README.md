@@ -99,3 +99,9 @@ Work list(争取每天做一道。。)
 &nbsp;&nbsp;&nbsp;&nbsp;将n用2进制表示，然后将底数的2^n次方提前算好，然后再求x的n次方，降低复杂度。<br/><br/>
 51.N-Queens<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;递归加回溯，基础题<br/><br/>
+52.N-Queens<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;在N皇后问题的代码稍微改改就行了<br/><br/>
+53.Spiral Matrix<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;基础题<br/><br/>
+54.Maximum Subarray<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;不错的题，动态规划算法。c[i]代表nums[0-i]中必须包含nums[i]的最大子段的和。c[i] = max{c[i - 1]+a[i], a[i]} i = 1, 2, ...n。最后遍历数组c，找到最大值返回即可。<br/><br/>
