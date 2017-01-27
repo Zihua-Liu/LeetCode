@@ -91,17 +91,17 @@ Work list(争取每天做一道。。)
 &nbsp;&nbsp;&nbsp;&nbsp;简单的递归就可以搞定<br/><br/>
 47.Permutations II--------python<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;在46的基础上对递归进行一定的优化，首先先把数组排序，对于重复的元素如果在同一层中已经使用过了就不要再选择这个元素进入下一层递归了<br/><br/>
-48.Image Rotation<br/>
+48.Image Rotation--------python<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;从外到里一圈一圈的旋转90度<br/><br/>
-49.Group Anagrams<br/>
+49.Group Anagrams--------python<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;用两层循环做会超时，用一层循环，将每个字符串按字典序重新排序后，将排序后相同的字符串加入字典中同一key值的列表（相当于哈希的方式实现，不会超时。)<br/><br/>
-50.Pow(x, n)<br/>
+50.Pow(x, n)--------python<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;将n用2进制表示，然后将底数的2^n次方提前算好，然后再求x的n次方，降低复杂度。<br/><br/>
-51.N-Queens<br/>
+51.N-Queens--------python<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;递归加回溯，基础题<br/><br/>
-52.N-Queens<br/>
+52.N-Queens--------python<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;在N皇后问题的代码稍微改改就行了<br/><br/>
-53.Spiral Matrix<br/>
+53.Spiral Matrix--------python<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;基础题<br/><br/>
-54.Maximum Subarray<br/>
+54.Maximum Subarray--------python<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;不错的题，动态规划算法。c[i]代表nums[0-i]中必须包含nums[i]的最大子段的和。c[i] = max{c[i - 1]+a[i], a[i]} i = 1, 2, ...n。最后遍历数组c，找到最大值返回即可。<br/><br/>
