@@ -105,3 +105,9 @@ Work list(争取每天做一道。。)
 &nbsp;&nbsp;&nbsp;&nbsp;基础题<br/><br/>
 54.Maximum Subarray--------python<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;不错的题，动态规划算法。c[i]代表nums[0-i]中必须包含nums[i]的最大子段的和。c[i] = max{c[i - 1]+a[i], a[i]} i = 1, 2, ...n。最后遍历数组c，找到最大值返回即可。<br/><br/>
+55.Jump Game--------python<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;动态规划算法。c[i]代表从0 - i位置能到达的最远的位置。c[0]=nums[0]，如果c[i-1] < i，代表无法到达i位置，返回false即可。当可以到达i位置时，c[i] = max(c[i-1], i + nums[i])。<br/><br/>
+56.Merge Intervals--------python<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;把interval中元素按照start从小到达排序，遍历，检查相邻两个二元组间是否有重叠部分，有重叠则合并。在数组排序时，需要自己写一下sort函数的比较函数。<br/><br/>
+57.Insert Interval--------python<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;和56一样。把新的元祖插入数组重复56即可<br/><br/>
