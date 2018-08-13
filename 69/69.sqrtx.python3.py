@@ -40,6 +40,16 @@ class Solution:
         :type x: int
         :rtype: int
         """
-        import numpy
-        return int(numpy.sqrt(x))
+        l = 0
+        r = x
+        while l < r:
+            mid = int((l + r + 1) / 2)
+            if mid * mid < x:
+                l = mid
+            elif mid * mid > x:
+                r = mid - 1
+            else:
+                return mid
+        return l
+
         
