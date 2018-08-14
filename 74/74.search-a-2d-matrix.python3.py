@@ -69,7 +69,6 @@ class Solution:
 				return False
 
 		mid = int((left + right) / 2)
-		print(str(left) + " " + str(mid) + " " + str(right))
 		value = self.array_to_matrix(matrix, mid, row_cnt, col_cnt)
 		if value == target:
 			return True
