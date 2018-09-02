@@ -37,12 +37,7 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
-        hash_set = {}
+        ans = 0
         for num in nums:
-        	if num not in hash_set.keys():
-        		hash_set[num] = 1
-        	else:
-        		hash_set[num] += 1
-        for num in nums:
-        	if hash_set[num] == 1:
-        		return num
+        	ans ^= num
+        return ans
